@@ -1,3 +1,4 @@
+name: Meu primeiro workflow
 on: push #evento que será disparado o workflow, ou seja, aqui sera executado toda vez q tiver um push
 
 jobs: #aqui dentro foi criado dois jobs,
