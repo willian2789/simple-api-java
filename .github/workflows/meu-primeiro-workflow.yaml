@@ -1,0 +1,17 @@
+on: push #evento que será disparado o workflow, ou seja, aqui sera executado toda vez q tiver um push
+
+jobs: #aqui dentro foi criado dois jobs,
+    job1-hello:
+        runs-on: ubuntu-latest #SO
+        steps:
+        - name: Imprimir mensagem
+          run: echo "Olá, Mundo"
+    job2-goodbye:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Step 1 - Sequencia de instruções # o comando | serve para adicionar mais de uma instrução
+          run: | 
+            echo "Uma nova instrução"
+            ls            
+        - name: Step 2 - Imprimir mensagem
+          run: echo "Até logo!"
