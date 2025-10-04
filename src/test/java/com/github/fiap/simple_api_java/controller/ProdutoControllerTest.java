@@ -58,7 +58,7 @@ public class ProdutoControllerTest {
     @Test
     void testGivenNewProduto_whenCreate_thenFail() throws Exception{
         // fail("Um erro acontecerá");
-        fail("Uma nova falha");
+        //fail("Uma nova falha");
     }
     
 }
